@@ -13,7 +13,7 @@ This project covers 50 questions on Python fundamentals and introductory NumPy o
 | File | Questions | Contents |
 | --- | --- | --- |
 | `SectionA_Aditya_Kumar.ipynb` | Q1–Q10 | Object identity, mutability, floating-point arithmetic, collections, operators and NumPy fundamentals |
-| `SectionB_Aditya_Kumar.ipynb` | Q11–Q15 | Worked output predictions, executable examples and explanations of Python behaviour |
+| `SectionB_Aditya_Kumar.ipynb` | Q11–Q15 | Expected outputs, executable examples and explanations of Python behaviour |
 | `SectionC_Aditya_Kumar.ipynb` | Q16–Q50 | Calculations, conditionals, patterns, loops, collections, strings, functions and NumPy operations |
 | `README.md` | — | Project overview, setup instructions and implementation notes |
 
@@ -59,7 +59,7 @@ Two examples intentionally raise exceptions as part of the questions:
 - **Q13:** `print(j)` raises `NameError` when `j` has not previously been defined, because the loop over `range(0)` never executes. Use a fresh kernel or runtime to reproduce this result.
 - **Q14:** `print("10" + 20)` raises `TypeError`. Execution stops before the last statement in that cell. A separate cell demonstrates the last statement independently.
 
-If **Run All** stops at either exception, continue with the subsequent cells individually. Predictions in this notebook are labelled as worked examples; saved outputs show demonstration runs.
+If **Run All** stops at either exception, continue with the subsequent cells individually. Expected-output sections accompany the code; saved outputs show demonstration runs.
 
 ## Section C: Inputs and Behaviour
 
@@ -74,7 +74,7 @@ For **Q39**, the state-and-capital menu continues until option **6** is selected
 | Q17 | The delivery threshold is checked against the subtotal before GST, matching the supplied example: ₹450 subtotal + ₹81 GST + ₹40 delivery = ₹571. |
 | Q21, Q23 | Tax slabs and electricity rates are implemented as supplied in the assignment. Q21 does not add deductions, rebates, cess or surcharge. |
 | Q25 | The assignment's BMI categories are applied to the unrounded result using thresholds of 18.5, 23, 25 and 30. |
-| Q27 | The number diamond accepts N from 1 to 9 to preserve a single-digit layout. |
+| Q27 | The number diamond accepts positive integer sizes and uses loop-based padding to align multi-digit values. |
 | Q36 | Words are whitespace-separated tokens. Vowels and consonants use English letters. Spaces are literal spaces; other characters, including tabs, count as special characters. |
 | Q37 | Second highest means the second-highest distinct mark. If all marks are equal, no second distinct mark exists. |
 | Q38 | Punctuation separates words. Tied word frequencies retain first-appearance order. |
@@ -95,4 +95,3 @@ Checks also confirmed that:
 - Q49 and Q50 contain no explicit loops.
 
 The two Section B exceptions described above are expected outputs of the supplied examples.
-# DADS_November_Minor_Project_01
